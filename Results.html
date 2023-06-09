@@ -5,8 +5,126 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Results</title>
+	<style>
+		#test{
+			color: blue;
+			text-align: center;
+			font-size: 50px;
+		}
+		 table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+
+		 caption {
+            color: purple;
+			font-size: 24px;
+            margin-bottom: 20px;
+        }
+		th {
+            background-color: lightgray;
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        td {
+            padding: 10px;
+            font-size: 16px;
+			text-align: center;
+        }
+
+		.a{
+			color: red;
+		}
+		.b{
+			color: orange;
+			background-color: aqua;
+		}
+		.c{
+			color: darkgreen;
+			background-color: goldenrod;
+		}
+		.d{
+			color: chartreuse;
+			background-color: blueviolet;
+		}
+		.e{
+			color: pink;
+			background-color: green;
+		}
+		.f{
+			color: aquamarine;
+			background-color:red
+		}
+		.g{
+			color: fuchsia;
+			background-color: brown;
+		}
+	</style>
+	<link rel="stylesheet" href="results.css">
 </head>
-<body>
-    <h1>Results  </h1>
+<body style="background-color: black;">
+   <div> <h1 id="test">Results </h1></div>
+    <table style="border: 5px solid purple;">
+		<caption><b>Marks and Grades of My Subjects in 3rd Semester and 4th Semester</b></caption>
+		<tr class="a">
+			<th>SUBJECT</th>
+			<th>QUIZ</th>
+			<th>CAT-1</th>
+			<th>CAT-2</th>
+			<th>FAT</th>
+			<th>Grade</th>
+		</tr>
+
+		<tr class="b">
+			<td>DSA</td>
+			<td>9</td>
+			<td>45</td>
+			<td>42</td>
+			<td>59</td>
+			<td class="grade-A">A</td>
+		</tr>
+		<tr class="c"> 
+			<td>COA</td>
+			<td>14</td>
+			<td>41</td>
+			<td>39</td>
+			<td>50</td>
+			<td class="grade-B">B</td>
+		</tr>
+		<tr class="d">
+			<td>DMS</td>
+			<td>15</td>
+			<td>45</td>
+			<td>46</td>
+			<td>54</td>
+			<td class="grade-A">A</td>
+		</tr>
+		<tr class="e">
+			<td>ADDE</td>
+			<td>10</td>
+			<td>50</td>
+			<td>49</td>
+			<td>55</td>
+			<td class="grade-S">S</td>
+		</tr>
+		<tr class="f">
+			<td>OS</td>
+			<td>9</td>
+			<td>49</td>
+			<td>38</td>
+			<td>45</td>
+			<td class="grade-B">B</td>
+		</tr>
+		<tr class="g">
+			<td>DBMS</td>
+			<td>20</td>
+			<td>44</td>
+			<td>46</td>
+			<td>49</td>
+			<td class="grade-A">A</td>
+		</tr>
+	</table>
 </body>
 </html>

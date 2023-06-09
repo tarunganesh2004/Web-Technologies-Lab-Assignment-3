@@ -1,0 +1,11 @@
+td.grade-A {
+  color: blue;
+}
+
+td.grade-B {
+  color: yellow;
+}
+
+td.grade-S {
+  color: rgba(0, 0, 0, 0.948);
+}
